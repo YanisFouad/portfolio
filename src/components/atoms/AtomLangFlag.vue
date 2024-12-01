@@ -20,7 +20,5 @@ const flagSrc = ref('');
 onMounted(async () => {
     const module = await import(`@/assets/icons/flags/${props.langCode}.svg`);
     flagSrc.value = module.default;
-
-    console.log(module.default);
 });
 </script>

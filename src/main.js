@@ -17,7 +17,6 @@ for (const path in locales) {
   if (matched) {
     const locale = matched[1];
     const namespace = matched[2];
-    console.log(namespace);
 
     if (!messages[locale]) {
       messages[locale] = {};
@@ -33,6 +32,7 @@ const i18n = createI18n({
   messages,
   legacy: false,
 });
+
 
 app.use(i18n);
 app.use(router);

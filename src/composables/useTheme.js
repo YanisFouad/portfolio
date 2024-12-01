@@ -18,7 +18,6 @@ export function useTheme() {
     const triggerY = e.clientY;
 
     await document.startViewTransition(() => {
-      console.log("Inside startViewTransition");
       if (theme.value === "dark") {
         document.getElementById('app').classList.add("dark");
         localStorage.setItem("theme", "dark");
@@ -41,7 +40,6 @@ export function useTheme() {
         pseudoElement: "::view-transition-new(root)",
       }
     );
-    console.log("Outside startViewTransition");
   };
 
   const initTheme = () => {

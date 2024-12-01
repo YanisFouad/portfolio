@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}', './App.vue'],
-  darkMode: 'class',
+  darkMode: 'selector',
   theme: {
     screens: {
       sm: '480px',
@@ -52,6 +52,36 @@ export default {
       backgroundImage: {
         'dark-theme': "url('/img/dark-theme.svg')",
       },
+      animation: {
+        'dropExpand': 'dropExpand 1s ease-in-out',
+        'bounce': 'bounce 3s infinite ease-in-out',
+      },
+      keyframes: {
+        bounce: {
+          '0%, 20%, 50%, 80%, 100%': {
+            transform: 'translateY(0)',
+            animationTimingFunction: 'cubic-bezier(0.8, 0, 1, 1)',
+          },
+          '40%': {
+            transform: 'translateY(30px)',
+            animationTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)',
+          },
+          '60%': {
+            transform: 'translateY(15px)',
+            animationTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)',
+          },
+        }
+      },
+      rotate: {
+        '16': '16deg',
+        '-16': '-16deg',
+      },
+      width: {
+        '1/10vw': '10vw',
+      },
+      height: {
+        '105vh': '105vh',
+      }
     },
   },
   plugins: [],

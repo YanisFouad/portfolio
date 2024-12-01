@@ -67,6 +67,10 @@
         }
     }
 
+    .animate-dropExpand {
+        animation: dropExpand 1s ease-out forwards;
+    }
+
     .animate-moveRight {
         animation: moveRight 3s forwards;
     }
