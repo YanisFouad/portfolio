@@ -1,3 +1,83 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Bricolage Grotesque';
+        src: url('../fonts/bricolage-grotesque.ttf') format('truetype-variations');
+        font-weight: 100 900;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Caveat';
+        src: url('../fonts/caveat.ttf') format('truetype-variations');
+        font-weight: 100 900;
+        font-style: normal;
+    }
+
+    body {
+        @apply font-bricolage text-lg;
+    }
+
+    h1 {
+        @apply text-5xl font-bricolage font-extrabold;
+    }
+
+    h2 {
+        @apply text-4xl font-bricolage font-semibold;
+    }
+
+    h3 {
+        @apply text-3xl font-bricolage font-semibold;
+    }
+
+    h4 {
+        @apply text-2xl font-bricolage font-semibold;
+    }
+
+    h5 {
+        @apply text-xl font-bricolage font-semibold;
+    }
+
+    h6 {
+        @apply text-lg font-bricolage font-semibold;
+    }
+}
+
+@layer utilities {
+    @keyframes moveRight {
+        from {
+            left: 0;
+            right: auto;
+        } to {
+            left: auto;
+            right: 0;
+        }
+    }
+
+    @keyframes moveLeft {
+        from {
+            left: auto;
+            right: 0;
+        } to {
+            left: 0;
+            right: auto;
+        }
+    }
+
+    .animate-moveRight {
+        animation: moveRight 3s forwards;
+    }
+
+    .animate-moveLeft {
+        animation: moveLeft 3s forwards;
+    }
+}
+
+::view-transition-old,
+::view-transition-new {
+    animation: none;
+    mix-blend-mode: normal;
+}

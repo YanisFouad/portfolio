@@ -1,0 +1,9 @@
+{
+    "nav-bar-desktop": {
+        "home": "Home",
+        "about": "About",
+        "experiences": "Experience",
+        "skills": "Skills",
+        "projects": "Projects"
+    }
+}

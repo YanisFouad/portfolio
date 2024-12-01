@@ -1,0 +1,9 @@
+{
+    "nav-bar-desktop": {
+        "home": "Accueil",
+        "about": "À propos",
+        "experiences": "Expérience",
+        "skills": "Compétences",
+        "projects": "Projets"
+    }
+}
