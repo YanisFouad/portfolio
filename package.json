@@ -15,6 +15,7 @@
     "@mdi/js": "^7.4.47",
     "country-flag-icons": "^1.5.13",
     "gsap": "^3.12.5",
+    "matter-js": "^0.20.0",
     "split-type": "^0.3.4",
     "tailwindcss": "^3.4.15",
     "vue": "^3.5.12",
