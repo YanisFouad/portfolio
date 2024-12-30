@@ -30,7 +30,7 @@ jobs:
 
       - name: Deploy
         run: |
-          cd /root/portfolio
+          cd /web/portfolio
           git checkout main
           git pull
           docker compose down
