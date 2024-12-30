@@ -18,6 +18,8 @@ jobs:
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/private
           echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
           chmod 600 ~/.ssh/private
+          ls -l ~/.ssh/
+          cat ~/.ssh/private
         env:
           SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
           SSH_KNOWN_HOSTS: ${{secrets.SSH_KNOWN_HOSTS}}
