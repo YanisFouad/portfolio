@@ -24,17 +24,12 @@ jobs:
 
       - name: Connect to ssh server
         run: |
-          echo "Connecting to SSH server"
           ssh root@yanisfouad.com
 
       - name: Deploy
         run: |
-          echo "Deploying..."
           cd ~/portfolio
-          echo "Pulling latest changes from main branch"
           git checkout main
           git pull
-          echo "Restarting docker compose"
           docker compose down
           docker compose up --build -d
-          echo "Deployment done"
