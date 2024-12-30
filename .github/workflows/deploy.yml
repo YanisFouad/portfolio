@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Add SSH Key to runner
         run: |
+          echo ${{ secrets.SSH_PRIVATE_KEY }}
+          echo ${{ secrets.SSH_KNOWN_HOSTS }}
           mkdir -p ~/.ssh/
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/private
           echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
