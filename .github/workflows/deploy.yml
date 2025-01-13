@@ -1,0 +1,37 @@
+name: Deployment
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add SSH Key to runner
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/private
+          echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/private
+          ls -l ~/.ssh/
+          cat ~/.ssh/private
+        env:
+          SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
+          SSH_KNOWN_HOSTS: ${{secrets.SSH_KNOWN_HOSTS}}
+
+      - name: Connect to ssh server
+        run: |
+          ssh -i ~/.ssh/private -o StrictHostKeyChecking=no root@yanisfouad.com
+
+      - name: Deploy
+        run: |
+          cd /web/portfolio
+          git checkout main
+          git pull
+          docker compose down
+          docker compose up --build -d
