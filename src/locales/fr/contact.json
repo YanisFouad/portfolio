@@ -1,0 +1,18 @@
+{
+  "title": "Me contacter",
+  "form": {
+    "name": {
+        "label": "Nom",
+        "placeholder": "Votre nom et prénom"
+    },
+    "email": {
+        "label": "Email",
+        "placeholder": "Votre adresse email"
+    },
+    "message": {
+        "label": "Message",
+        "placeholder": "Votre message"
+    },
+    "submit": "Envoyer"
+  }
+}

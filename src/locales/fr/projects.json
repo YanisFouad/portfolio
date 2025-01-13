@@ -1,0 +1,122 @@
+{
+  "title": "Mes projets",
+  "see-more": "Voir plus",
+  "back": "Retour",
+  "projects": [
+    {
+      "id": 0,
+      "category": "Développement Web",
+      "title": "Plateforme de location saisonnière",
+      "description-resume": "Un site web moderne et intuitif pour la location de logements saisonniers, offrant une expérience utilisateur optimale et des fonctionnalités avancées.",
+      "description": [
+        {
+          "title": "Contexte",
+          "content": "Durant ma deuxième année de BUT Informatique, j'ai participé à un projet de développement d'une plateforme de location saisonnière, en collaboration avec une équipe de cinq étudiants. Ce projet avait pour objectif de concevoir un outil complet permettant de répondre aux attentes des utilisateurs, des propriétaires et du client, tout en respectant les contraintes techniques et les délais imposés."
+        },
+        {
+          "title": "Conception",
+          "content": "La phase de conception a été essentielle pour poser les bases du projet. Nous avons réalisé une analyse approfondie des besoins du client et plusieurs livrables importants, dont un diagramme UML pour modéliser les entités et leurs relations. Nous avons également conçu la structure de la base de données en PostgreSQL, incluant les tables, les clés primaires et étrangères, ainsi que des index pour garantir des performances optimales. En parallèle, des wireframes ont été réalisés pour valider les interfaces utilisateur avant le développement."
+        },
+        {
+          "title": "Méthodologie",
+          "content": "Nous avons utilisé la méthodologie agile SCRUM pour structurer notre travail. Organisé en sprints de deux semaines, chaque cycle comprenait des réunions quotidiennes pour suivre l'avancement des tâches, des revues de sprint pour valider les fonctionnalités développées, et des rétrospectives pour identifier les axes d'amélioration. JIRA nous a permis de gérer le backlog et de prioriser les tâches en fonction des objectifs. Cette organisation a favorisé une collaboration efficace et une gestion proactive des imprévus."
+        },
+        {
+          "title": "Technologies utilisées",
+          "content": "Les technologies imposées par le client incluaient HTML, SCSS, JavaScript pour le développement Front-End, et PHP avec PostgreSQL pour le Back-End. Git a été utilisé pour gérer les versions et permettre une collaboration fluide au sein de l'équipe. Nous avons également utilisé JIRA pour coordonner les tâches et suivre l'avancement du projet."
+        },
+        {
+          "title": "Fonctionnalités",
+          "content": "La plateforme est divisée en deux espaces distincts. Le Front-Office destiné aux utilisateurs propose une recherche avancée avec filtres dynamiques, la réservation en ligne et la facturation automatisée. Le Back-Office réservé aux propriétaires permet de gérer leurs biens immobiliers, de suivre les réservations et d'exporter les calendriers au format iCalendar pour les synchroniser avec d'autres outils."
+        },
+        {
+          "title": "Défis rencontrés",
+          "content": "Nous avons rencontré plusieurs défis, à la fois organisationnels et techniques. Sur le plan organisationnel, il a fallu répartir les tâches équitablement au sein d'une équipe ayant des niveaux de compétence variés et maintenir une communication efficace malgré des délais serrés. Sur le plan technique, la conception d'une base de données évolutive et la création d'une recherche avancée fluide et rapide ont représenté des défis majeurs. Ces obstacles ont été surmontés grâce à une planification rigoureuse et à une bonne collaboration entre les membres de l'équipe."
+        },
+        {
+          "title": "Résultat",
+          "content": "Le projet a été une réussite. La plateforme a été très bien accueillie par le client, qui a salué sa qualité et sa conformité aux attentes. Ce projet a été une expérience enrichissante qui nous a permis de développer nos compétences techniques, organisationnelles et collaboratives. Lors de la soutenance, nous avons reçu les félicitations du jury, ce qui témoigne du sérieux et de l'engagement de notre équipe."
+        }
+      ],
+      "tags": ["Réaliser", "Administrer", "Gérer", "Conduire", "Collaborer"],
+      "image": {
+        "url": "/projects/alhaizh-breizh.png",
+        "alt": "Image de la plateforme de location saisonnière"
+      }
+    },
+    {
+      "id": 1,
+      "category": "Développement Web",
+      "title": "Espace personnel de gestion de membres",
+      "description-resume": "Un site web créé pour la Société Francophone d'Arthroscopie (SFA), permettant aux membres de l'association de renouveler leur adhésion, de consulter des documents et de gérer leur profil.",
+      "description": [
+        {
+          "title": "Contexte",
+          "content": "Durant mon alternance chez CYIM, j'ai participé à la conception et au développement d'un espace personnel pour la Société Francophone d'Arthroscopie (SFA). Ce projet visait à moderniser et automatiser le système de gestion des membres de l'association, auparavant géré manuellement via des outils comme Excel et Gmail. La plateforme devait simplifier les interactions entre les adhérents et les administrateurs. L'équipe projet était composée d'une cheffe de projet, de deux développeurs Front-End et de trois développeurs Back-End, dont moi. Parmi les développeurs Back-End, j'étais le seul affecté à plein temps sur ce projet, ce qui m'a permis de jouer un rôle clé dans son avancement."
+        },
+        {
+          "title": "Méthodologie",
+          "content": "Le travail était organisé sous forme de sprints de 15 jours, avec des objectifs définis à chaque début de cycle. Une réunion hebdomadaire (weekly) permettait de suivre l'avancement des tâches, de discuter des blocages et d'ajuster les priorités en fonction des besoins. Cette approche a favorisé une collaboration efficace et une livraison progressive des fonctionnalités."
+        },
+        {
+          "title": "Technologies utilisées",
+          "content": "Le développement Back-End s'est appuyé sur des technologies éprouvées, utilisées depuis plusieurs années au sein du service, pour répondre aux exigences du projet. Drupal a servi de base pour structurer l'application, avec une intégration de CiviCRM pour gérer les membres, les candidatures et les workflows d'adhésion dynamiques. Afin de répondre aux besoins spécifiques du projet, j'ai utilisé PHP et Symfony pour créer des fonctionnalités sur mesure, tout en garantissant une parfaite intégration avec Drupal et CiviCRM. Pour la visualisation des données, notamment les statistiques sur les membres, j'ai utilisé D3.js pour générer des graphiques interactifs, accompagnés de requêtes SQL optimisées pour extraire et analyser les données nécessaires."
+        },
+        {
+          "title": "Fonctionnalités",
+          "content": "L'espace personnel de gestion de membres offre des fonctionnalités essentielles pour l'association, notamment :\n- Envoi automatique d'e-mails liés aux paiements différés et à la validation des adhésions.\n- Notifications par e-mail pour les candidatures des nouveaux membres.\n- Génération automatique de reçus d'adhésion au format PDF.\n- Workflow d'adhésion dynamique, adapté aux critères de a SFA.\n- Gestion centralisée des candidatures via des tableaux dédiés pour les administrateurs dans le CRM.\n- Indicateurs statistiques détaillés sur les membres et leurs adhésions pour un meilleur suivi et pilotage de l'association."
+        },
+        {
+          "title": "Défis rencontrés",
+          "content": "L'un des principaux défis du projet a été de garantir que le processus d'adhésion automatique respecte scrupuleusement les critères d'adhésion définis par la Société Francophone d'Arthroscopie (SFA). Il a fallu s'assurer que chaque étape du workflow d'adhésion, ainsi que la gestion des candidatures et des paiements, soient entièrement alignées avec les exigences spécifiques de l'association. Ce défi a nécessité une attention particulière à la personnalisation du système, notamment en ce qui concerne les critères d'adhésion dynamiques et l'automatisation des validations, tout en préservant la rigueur et la conformité du processus."
+        },
+        {
+          "title": "Résultat",
+          "content": "Le projet a été une réussite, offrant à l'association un outil performant et moderne qui simplifie la gestion de ses membres. Les adhérents ont particulièrement apprécié l'interface utilisateur intuitive et les nouvelles fonctionnalités en ligne, tandis que les administrateurs ont gagné en efficacité dans leurs tâches quotidiennes."
+        }
+      ],
+      "tags": ["Réaliser", "Collaborer"],
+      "image": {
+        "url": "/projects/crm-sfa.png",
+        "alt": "Image de l'espace personnel de gestion de membres"
+      }
+    },
+    {
+      "id": 2,
+      "category": "Développement Web",
+      "title": "Portfolio",
+      "description-resume": "Un portfolio moderne et interactif mettant en avant mes compétences en développement web et mes projets professionnels.",
+      "description": [
+        {
+          "title": "Contexte",
+          "content": "Ce projet personnel a été conçu pour présenter mon parcours, mes compétences et mes projets en tant que développeur fullstack. L'objectif était de créer un site qui reflète mon expertise technique tout en offrant une navigation fluide et une esthétique professionnelle. Ce portfolio est pensé comme un outil évolutif, intégrant des technologies modernes et des fonctionnalités dynamiques pour impressionner les recruteurs et collaborateurs potentiels."
+        },
+        {
+          "title": "Conception",
+          "content": "La conception du portfolio a débuté par la création d'une maquette détaillée sur Figma, où j'ai défini une identité visuelle en accord avec mon profil professionnel. Une attention particulière a été portée à l'ergonomie, à l'expérience utilisateur (UX) et à l'accessibilité, avec un mode clair et sombre activable par l'utilisateur. Les animations et interactions ont été soigneusement intégrées pour renforcer l'impact visuel tout en maintenant une performance optimale."
+        },
+        {
+          "title": "Technologies utilisées",
+          "content": "Pour le développement de ce portfolio, j'ai utilisé Vue.js avec la Composition API pour structurer les composants et gérer les fonctionnalités. Tailwind CSS a été employé pour créer un design moderne et réactif, tandis que GSAP a permis d'ajouter des animations fluides et captivantes. J'ai également intégré Vue I18n pour prendre en charge un contenu multilingue (français et anglais)."
+        },
+        {
+          "title": "Fonctionnalités",
+          "content": "Le portfolio propose une présentation dynamique de mes compétences et de mes projets, accompagnée d'une section personnalisée dédiée à mes expériences professionnelles. Il inclut une page 404 créative, des animations fluides pour attirer l'attention, ainsi qu'une fonctionnalité de changement de thème (clair/sombre) accessible via un simple bouton. La navigation entre les différentes sections est intuitive, et des détails techniques sont fournis pour chaque projet, permettant aux visiteurs d'explorer mes contributions en profondeur."
+        },
+        {
+          "title": "Défis rencontrés",
+          "content": "Le principal défi a été de concilier un design moderne et interactif avec une performance optimale, surtout sur des appareils avec des ressources limitées. Intégrer des animations complexes tout en maintenant une fluidité irréprochable a nécessité une optimisation minutieuse du code et une gestion rigoureuse des dépendances. De plus, l'implémentation multilingue a demandé une réflexion approfondie sur la structure des contenus pour assurer une expérience utilisateur homogène dans les deux langues."
+        },
+        {
+          "title": "Résultat",
+          "content": "Ce portfolio reflète à la fois mes compétences techniques et mon souci du détail. Il a été conçu comme une vitrine professionnelle, mettant en lumière mes réalisations tout en offrant une expérience utilisateur engageante et immersive. Les retours reçus de mes pairs et de professionnels ont confirmé que cet outil répond pleinement à mes objectifs de valorisation de mon profil."
+        }
+      ],
+      "tags": ["Réaliser", "Optimiser"],
+      "image": {
+        "url": "/projects/portfolio.png",
+        "alt": "Image du portfolio de développeur fullstack"
+      }
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "title": "My experiences",
+  "card": {
+    "date": {
+      "start-date": "Start Date",
+      "end-date": "End Date",
+      "total-duration": "Total Duration"
+    },
+    "column": {
+      "1": {
+        "title": "To Do",
+        "tickets": {
+          "1": {
+            "id": 1,
+            "src": "https://via.placeholder.com/150",
+            "alt": "Scrum 1",
+            "category": "",
+            "topic": "Software Development",
+            "startDate": "01/09/2025",
+            "endDate": "31/06/2027",
+            "totalDuration": "2 years",
+            "title": "Computer Science Master's",
+            "icon": "https://via.placeholder.com/150",
+            "created": "07/01/2025",
+            "updated": "07/01/2025",
+            "description": [
+              {
+                "title": "A Future Step in My Journey",
+                "content": "Although I am currently pursuing my Bachelor's in Computer Science, my goal is to continue my studies with a Master's in Computer Science, specializing in Software Development. This master's program represents an opportunity to further specialize in designing and developing complex applications, preparing me for increasingly demanding technical roles."
+              },
+              {
+                "title": "Why This Choice?",
+                "content": "Choosing this Master's after my Bachelor's in Computer Science is a natural step. I want to deepen my technical knowledge while gaining practical skills that will allow me to participate in large-scale projects. This program will provide opportunities to tackle complex problems and collaborate with experienced professionals in real-world settings."
+              },
+              {
+                "title": "My Ambitions for the Future",
+                "content": "My goal is to complete my Computer Science Bachelor's with a Master's to acquire advanced expertise in software development and be ready to tackle the technical challenges of the professional world. This Master's is the next step to prepare me to work in top-tier companies in technical roles, enabling me to create innovative and high-quality solutions."
+              }
+            ]
+          }
+        }
+      },
+      "2": {
+        "title": "In Progress",
+        "tickets": {
+          "2": {
+            "id": 2,
+            "src": "https://via.placeholder.com/150",
+            "alt": "Scrum 3",
+            "category": "Fullstack",
+            "topic": "Developer",
+            "startDate": "03/07/2023",
+            "endDate": "31/08/2023",
+            "totalDuration": "2 years",
+            "title": "Internship at CYIM",
+            "icon": "https://via.placeholder.com/150",
+            "created": "07/01/2025",
+            "updated": "07/01/2025",
+            "rapporteur": {
+              "name": "CYIM",
+              "src": "/cyim.png",
+              "alt": "CYIM Logo"
+            },
+            "description": [
+              {
+                "title": "A Dynamic and Innovative Environment",
+                "content": "My internship at CYIM (Cyber Imagination) as a Fullstack Developer has allowed me to join a dynamic team and work on innovative projects. CYIM is a company focused on developing digital solutions for its clients, with an approach centered on innovation and quality. Within this company, I have the opportunity to work with diverse technologies and actively contribute to developing concrete products, while strengthening my fullstack development skills."
+              },
+              {
+                "title": "Varied and Enriching Tasks",
+                "content": "As a fullstack developer, my role involves various tasks, from designing to deploying applications. Some of the tasks I have completed or am currently working on include:\n- Frontend Development: Creating modular user interfaces to ensure maximum reusability.\n\n- Backend Development: Designing and developing backend modules for the Drupal CMS and CiviCRM."
+              },
+              {
+                "title": "What I Gain from It",
+                "content": "This internship at CYIM allows me to continuously improve in a stimulating professional environment. Not only have I enhanced my technical skills in fullstack development, but I've also learned to manage projects in teams, understand client needs, and deliver high-quality solutions. CYIM is a place where I feel fully engaged, and I have the opportunity to contribute to real and ambitious projects."
+              }
+            ]
+          },
+          "3": {
+            "id": 3,
+            "src": "https://via.placeholder.com/150",
+            "alt": "Scrum 3",
+            "category": "",
+            "topic": "Lannion",
+            "startDate": "01/09/2022",
+            "endDate": "31/08/2025",
+            "totalDuration": "3 years",
+            "title": "Computer Science Bachelor's",
+            "icon": "https://via.placeholder.com/150",
+            "created": "07/01/2025",
+            "updated": "07/01/2025",
+            "rapporteur": {
+              "name": "IUT de Lannion",
+              "src": "/iut-lannion.png",
+              "alt": "IUT de Lannion Logo"
+            },
+            "description": [
+              {
+                "title": "A Strong Foundation for My Career",
+                "content": "Currently in my third year of the Computer Science Bachelor's program, this course provides the foundation for my development and IT skills. The program has allowed me to develop deep theoretical knowledge while engaging in practical experiences through projects and internships. This journey has reinforced my decision to continue with a Master's in Computer Science after completing my degree."
+              },
+              {
+                "title": "Technical Skills Acquired",
+                "content": "During this final year of the Computer Science Bachelor's program, I have gained essential skills in several technical areas:\n- Fullstack Development: Building complete web applications, from backend to frontend.\n\n- Database Optimization: Creating and managing relational databases with a focus on performance.\n\n- Using Agile Methodologies: Implementing Scrum principles and managing projects with tools like Git and Jira."
+              },
+              {
+                "title": "What I Take from My Journey",
+                "content": "This final year of the Computer Science Bachelor's program has been a decisive step in my journey. It has allowed me to finalize my technical knowledge while preparing me for my transition to the Master's in Computer Science. The experiences gained through projects and practical work have given me a clearer vision of my professional future. I am now ready to deepen my software development skills and move towards more advanced specializations."
+              }
+            ]
+          }
+        }
+      },
+      "3": {
+        "title": "In Validation",
+        "tickets": {}
+      },
+      "4": {
+        "title": "Completed",
+        "tickets": {
+          "4": {
+            "id": 4,
+            "src": "https://via.placeholder.com/150",
+            "alt": "Scrum 3",
+            "category": "SIN",
+            "topic": "STI2D",
+            "startDate": "01/09/2020",
+            "endDate": "31/06/2022",
+            "totalDuration": "2 years",
+            "title": "Baccalaureate",
+            "icon": "https://via.placeholder.com/150",
+            "created": "07/01/2025",
+            "updated": "07/01/2025",
+            "rapporteur": {
+              "name": "Lycée Bréquigny",
+              "src": "/lycee-brequigny.png",
+              "alt": "Lycée Bréquigny Logo"
+            },
+            "description": [
+              {
+                "title": "A Key Step Towards My Professional Project",
+                "content": "Since high school, I had a clear vision of my future: to become a developer in the digital field. The STI2D baccalaureate with a focus on Information and Digital Systems (SIN) quickly became the best choice to lay the groundwork for this project. This technical and practical training allowed me to develop essential skills to pursue a Computer Science Bachelor's degree, the next step toward my goal: continuing to a Master's and specializing in development."
+              },
+              {
+                "title": "What I Take from It",
+                "content": "These years have confirmed my passion for development and strengthened my determination to pursue this path. The STI2D baccalaureate was not just a step: it was the perfect springboard for my current career. Even now, I rely on the skills and methodologies acquired to tackle technical challenges in my professional and academic projects."
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "modal": {
+    "detail": {
+      "assigned": "Assigned Person",
+      "start-date": "Start Date",
+      "end-date": "End Date",
+      "total-duration": "Total Duration",
+      "rapporteur": "Reporter",
+      "story-point": "Story Point",
+      "created": "Created on",
+      "add-comment": "Add Comment",
+      "sprint": "Sprint",
+      "updated": "Updated on",
+      "priority": "Priority"
+    }
+  }
+}

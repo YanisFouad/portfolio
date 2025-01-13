@@ -3,5 +3,13 @@
 </template>
 
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
+import { useLang } from "./composables/useLang";
+import { onMounted } from 'vue';
+
+const { initLang } = useLang();
+
+onMounted(() => {
+  initLang();
+})
 </script>

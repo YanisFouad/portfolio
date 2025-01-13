@@ -1,0 +1,19 @@
+{
+    "about-section": {
+        "title": "À propos de moi",
+        "card": {
+            "1": {
+                "title": "Qui je suis ?",
+                "content": "Je m'appelle Yanis, j'ai 20 ans, et je suis actuellement en alternance dans le domaine du développement web. Je suis en troisième année de BUT Informatique à Lannion. Passionné par la technologie, j'aime créer des solutions qui répondent aux besoins des utilisateurs tout en cherchant à rendre leur expérience fluide et agréable."
+            },
+            "2": {
+                "title": "Mon parcours",
+                "content": "Au fil de mes études et de mon expérience professionnelle, j'ai acquis de solides compétences en développement, en gestion de projets et en optimisation des performances. J'aime relever des défis et travailler sur des projets variés qui me permettent d'apprendre constamment et de m'améliorer."
+            },
+            "3": {
+                "title": "Ma vision",
+                "content": "Curieux et passionné, je reste toujours à l'écoute des nouvelles tendances dans mon domaine. Mon objectif est de continuer à me perfectionner dans le développement web et de créer des solutions innovantes pour améliorer l'expérience des utilisateurs."
+            }
+        }
+    }
+}

@@ -11,6 +11,7 @@ const router = createRouter({
     },
     {
       path: '/project/:id',
+      name: 'project',
       component: () => import('@/components/pages/ProjectPage.vue')
     },
     {
@@ -18,7 +19,18 @@ const router = createRouter({
       name: '404',
       component: () => import('@/components/pages/404Page.vue')
     },
+    {
+      path: '/test',
+      component: () => import('@/components/pages/TestPage.vue')
+    }
   ],
+  scrollBehavior(to) {
+    if (to.hash) {
+      return { el: to.hash, behavior: 'smooth' }
+    } else {
+      return { top: 0, behavior: 'smooth' }
+    }
+  }
 })
 
 export default router

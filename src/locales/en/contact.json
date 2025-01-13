@@ -1,0 +1,18 @@
+{
+  "title": "Contact Me",
+  "form": {
+    "name": {
+      "label": "Name",
+      "placeholder": "Your first and last name"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Your email address"
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Your message"
+    },
+    "submit": "Send"
+  }
+}

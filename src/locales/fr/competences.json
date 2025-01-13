@@ -1,0 +1,129 @@
+{
+  "frameworks-frontend": {
+    "main-section-title": "Frontend",
+    "title": "Frameworks",
+    "technologies": [
+      {
+        "name": "Vue.js",
+        "logo": "vue",
+        "link": "https://vuejs.org/"
+      },
+      {
+        "name": "Tailwind CSS",
+        "logo": "tailwind",
+        "link": "https://tailwindcss.com/"
+      }
+    ]
+  },
+  "languages-frontend": {
+    "title": "Langages",
+    "technologies": [
+      {
+        "name": "JavaScript",
+        "logo": "js",
+        "link": "https://developer.mozilla.org/fr/docs/Web/JavaScript"
+      },
+      {
+        "name": "HTML",
+        "logo": "html",
+        "link": "https://developer.mozilla.org/fr/docs/Web/HTML"
+      },
+      {
+        "name": "CSS",
+        "logo": "css",
+        "link": "https://developer.mozilla.org/fr/docs/Web/CSS"
+      }
+    ]
+  },
+  "frameworks-backend": {
+    "main-section-title": "Backend",
+    "title": "Frameworks",
+    "technologies": [
+      {
+        "name": "Symfony",
+        "logo": "symfony",
+        "link": "https://symfony.com/"
+      }
+    ]
+  },
+  "languages-backend": {
+    "title": "Langages",
+    "technologies": [
+      {
+        "name": "PHP",
+        "logo": "php",
+        "link": "https://www.php.net/"
+      },
+      { "name": "Java", "logo": "java", "link": "https://www.java.com/" }
+    ]
+  },
+  "databases": {
+    "main-section-title": "Base de données",
+    "technologies": [
+      {
+        "name": "MySQL",
+        "logo": "mysql",
+        "link": "https://www.mysql.com/"
+      },
+      {
+        "name": "PostgreSQL",
+        "logo": "postgresql",
+        "link": "https://www.postgresql.org/"
+      },
+      { "name": "MariaDB", "logo": "mariadb", "link": "https://mariadb.org/" }
+    ]
+  },
+  "versioning": {
+    "main-section-title": "Versioning",
+    "technologies": [
+      {
+        "name": "Git",
+        "logo": "git",
+        "link": "https://git-scm.com/"
+      },
+      {
+        "name": "GitLab",
+        "logo": "gitlab",
+        "link": "https://about.gitlab.com/"
+      }
+    ]
+  },
+  "infrastructure": {
+    "main-section-title": "Infrastructure",
+    "technologies": [
+      {
+        "name": "Docker",
+        "logo": "docker",
+        "link": "https://www.docker.com/"
+      },
+      {
+        "name": "Traefik Proxy",
+        "logo": "traefik",
+        "link": "https://traefik.io/"
+      },
+      {
+        "name": "NGINX",
+        "logo": "nginx",
+        "link": "https://www.nginx.org/"
+      }
+    ]
+  },
+  "cms-crm": {
+    "main-section-title": "CMS / CRM",
+    "technologies": [
+      {
+        "name": "Drupal",
+        "logo": "drupal",
+        "link": "https://www.drupal.org/"
+      },
+      {
+        "name": "CiviCRM",
+        "logo": "civicrm",
+        "link": "https://civicrm.org/"
+      }
+    ]
+  },
+  "page": {
+    "title": "Mes compétences"
+  }
+}

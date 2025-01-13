@@ -1,0 +1,19 @@
+{
+  "about-section": {
+    "title": "About Me",
+    "card": {
+      "1": {
+        "title": "Who am I?",
+        "content": "My name is Yanis, I'm 20 years old, and I am currently working as an apprentice in web development. I am in my third year of the Computer Science Bachelor's program in Lannion. Passionate about technology, I enjoy creating solutions that meet users' needs while striving to make their experience smooth and enjoyable."
+      },
+      "2": {
+        "title": "My Journey",
+        "content": "Throughout my studies and professional experience, I have gained strong skills in development, project management, and performance optimization. I enjoy taking on challenges and working on diverse projects that allow me to constantly learn and improve."
+      },
+      "3": {
+        "title": "My Vision",
+        "content": "Curious and passionate, I always stay updated with new trends in my field. My goal is to continue perfecting my skills in web development and create innovative solutions to enhance the user experience."
+      }
+    }
+  }
+}

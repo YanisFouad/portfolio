@@ -3,12 +3,14 @@ import App from "./App.vue";
 import router from "./router";
 import { createI18n } from "vue-i18n";
 import { useTheme } from "./composables/useTheme";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const { initTheme } = useTheme();
 initTheme();
 
 const app = createApp(App);
-
+gsap.registerPlugin(ScrollTrigger);
 const messages = {};
 const locales = import.meta.glob("./locales/**/**.json", { eager: true });
 

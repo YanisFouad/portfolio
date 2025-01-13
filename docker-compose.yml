@@ -1,5 +1,16 @@
-version: '3'
 services:
   portfolio:
     build:
       context: .
+    labels:
+        - "traefik.enable=true"
+        - "traefik.http.routers.portfolio.rule=Host(`portfolio.yanisfouad.com`)"
+        - "traefik.http.routers.portfolio.entrypoints=websecure"
+        - "traefik.http.routers.portfolio.tls.certresolver=letsencrypt"
+        - "traefik.http.services.portfolio.loadbalancer.server.port=80"
+    networks:
+      - traefik-front
+
+networks:
+  traefik-front:
+    external: true

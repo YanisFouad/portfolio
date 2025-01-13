@@ -1,0 +1,169 @@
+{
+  "title": "Mes expériences",
+  "card": {
+    "date": {
+      "start-date": "Date de début",
+      "end-date": "Date de fin",
+      "total-duration": "Durée totale"
+    },
+    "column": {
+      "1": {
+        "title": "A faire",
+        "tickets": {
+          "1": {
+            "id": 1,
+            "src": "https://via.placeholder.com/150",
+            "alt": "Scrum 1",
+            "category": "",
+            "topic": "Développement logiciel",
+            "startDate": "01/09/2025",
+            "endDate": "31/06/2027",
+            "totalDuration": "2 ans",
+            "title": "Master Informatique",
+            "icon": "https://via.placeholder.com/150",
+            "created": "07/01/2025",
+            "updated": "07/01/2025",
+            "description": [
+              {
+                "title": "Une étape future dans mon parcours",
+                "content": "Bien que je sois actuellement en train de poursuivre mon BUT Informatique, mon projet est de continuer mes études avec un Master Informatique en Développement Logiciel. Ce master représente pour moi l'opportunité de me spécialiser davantage dans la conception et le développement d'applications complexes, et de me préparer à des rôles techniques de plus en plus exigeants."
+              },
+              {
+                "title": "Pourquoi ce choix ?",
+                "content": "Choisir ce Master après mon BUT Informatique est un choix naturel. Je veux approfondir mes connaissances techniques tout en acquérant des compétences pratiques qui me permettront de participer à des projets de grande envergure. Ce programme me permettra de travailler sur des problématiques complexes tout en collaborant avec des professionnels expérimentés dans des contextes réels."
+              },
+              {
+                "title": "Mes ambitions pour l’avenir",
+                "content": "Mon objectif est de compléter mon parcours en BUT Informatique par un Master afin d'acquérir une expertise avancée en développement logiciel et ainsi être prêt à relever les défis techniques du monde professionnel. Ce master est l’étape suivante pour me préparer à travailler dans des entreprises de premier plan, dans des rôles techniques qui me permettront de créer des solutions innovantes et de haute qualité."
+              }
+            ]
+          }
+        }
+      },
+      "2": {
+        "title": "En cours",
+        "tickets": {
+          "2": {
+            "id": 2,
+            "src": "https://via.placeholder.com/150",
+            "alt": "Scrum 3",
+            "category": "Fullstack",
+            "topic": "Développeur",
+            "startDate": "03/07/2023",
+            "endDate": "31/08/2023",
+            "totalDuration": "2 ans",
+            "title": "Alternance chez CYIM",
+            "icon": "https://via.placeholder.com/150",
+            "created": "07/01/2025",
+            "updated": "07/01/2025",
+            "rapporteur": {
+              "name": "CYIM",
+              "src": "/cyim.png",
+              "alt": "Logo CYIM"
+            },
+            "description": [
+              {
+                "title": "Un environnement dynamique et innovant",
+                "content": "Mon alternance chez CYIM (Cyber Imagination) en tant que Développeur Fullstack m’a permis d'intégrer une équipe dynamique et d'être plongé dans des projets innovants. CYIM est une entreprise axée sur le développement de solutions numériques pour ses clients, avec une approche orientée vers l'innovation et la qualité. Au sein de cette entreprise, j’ai l’opportunité de travailler sur des technologies variées et de participer activement au développement de produits concrets, tout en consolidant mes compétences en développement fullstack."
+              },
+              {
+                "title": "Des missions variées et enrichissantes",
+                "content": "Mon rôle en tant que développeur fullstack m’implique dans diverses missions, allant de la conception à la mise en production des applications. Certaines des missions que j’ai réalisées ou que je mène actuellement incluent :\n- Développement Frontend : Création d’interfaces utilisateurs modulaires afin de garantir une réutilisabilité maximale.\n\n- Développement Backend : Conception et développement de modules backend pour le CMS Drupal et le CRM CiviCRM."
+              },
+              {
+                "title": "Ce que j'en retire",
+                "content": "Cette alternance chez CYIM me permet de progresser continuellement dans un environnement professionnel stimulant. J’y ai non seulement renforcé mes compétences techniques en développement fullstack, mais j'ai également appris à gérer des projets en équipe, à comprendre les besoins des clients et à livrer des solutions de qualité. CYIM est un lieu où je me sens pleinement impliqué et où j’ai la chance de contribuer à des projets concrets et ambitieux."
+              }
+            ]
+          },
+          "3": {
+            "id": 3,
+            "src": "https://via.placeholder.com/150",
+            "alt": "Scrum 3",
+            "category": "",
+            "topic": "Lannion",
+            "startDate": "01/09/2022",
+            "endDate": "31/08/2025",
+            "totalDuration": "3 ans",
+            "title": "BUT Informatique",
+            "icon": "https://via.placeholder.com/150",
+            "created": "07/01/2025",
+            "updated": "07/01/2025",
+            "rapporteur": {
+              "name": "IUT de Lannion",
+              "src": "/iut-lannion.png",
+              "alt": "Logo IUT de Lannion"
+            },
+            "description": [
+              {
+                "title": "Une fondation solide pour ma carrière",
+                "content": "Actuellement en troisième année de BUT Informatique, cette formation constitue le socle de mes compétences en développement et en informatique. Le programme m’a permis de développer des connaissances théoriques approfondies tout en me confrontant à des situations pratiques à travers des projets et des stages. Ce parcours m’a conforté dans mon choix de poursuivre en Master Informatique après l'obtention de ce diplôme."
+              },
+              {
+                "title": "Compétences techniques acquises",
+                "content": "Au cours de cette dernière année de BUT Informatique, j'ai acquis des compétences essentielles dans plusieurs domaines techniques :\n- Développement Fullstack : Développement d'applications web complètes, du backend au frontend.\n\n- Optimisation des bases de données : Création et gestion de bases de données relationnelles, avec un focus sur la performance.\n\n- Utilisation des méthodologies agiles : Mise en œuvre des principes Scrum et gestion de projets en équipe avec des outils comme Git et Jira.\n"
+              },
+              {
+                "title": "Ce que je retiens de mon parcours",
+                "content": "Cette dernière année de BUT Informatique est une étape décisive dans mon parcours. Elle m'a permis de finaliser mes connaissances techniques tout en me préparant à ma transition vers le Master Informatique. L'expérience acquise lors des projets et des travaux pratiques m'a donné une meilleure vision de mon futur professionnel. Je suis désormais prêt à approfondir mes compétences en développement logiciel et à m’orienter vers des spécialisations plus poussées."
+              }
+            ]
+          }
+        }
+      },
+      "3": {
+        "title": "En validation",
+        "tickets": {}
+      },
+      "4": {
+        "title": "Terminé",
+        "tickets": {
+          "4": {
+            "id": 4,
+            "src": "https://via.placeholder.com/150",
+            "alt": "Scrum 3",
+            "category": "SIN",
+            "topic": "STI2D",
+            "startDate": "01/09/2020",
+            "endDate": "31/06/2022",
+            "totalDuration": "2 ans",
+            "title": "Baccalauréat",
+            "icon": "https://via.placeholder.com/150",
+            "created": "07/01/2025",
+            "updated": "07/01/2025",
+            "rapporteur": {
+              "name": "Lycée Bréquigny",
+              "src": "/lycee-brequigny.png",
+              "alt": "Logo Lycée Bréquigny"
+            },
+            "description": [
+              {
+                "title": "Une étape clé vers mon projet professionnel",
+                "content": "Dès le lycée, j’avais une vision claire de mon avenir : devenir développeur dans le domaine du numérique. Le baccalauréat STI2D, avec la spécialité Systèmes d’Information et Numérique (SIN), s’est rapidement imposé comme le meilleur choix pour poser les bases de ce projet. Cette formation technique et concrète m’a permis de développer des compétences essentielles pour accéder à un BUT Informatique, étape suivante vers mon objectif : poursuivre en master et me spécialiser dans le développement."
+              },
+              {
+                "title": "Ce que j’en retire",
+                "content": "Ces années ont confirmé ma passion pour le développement et renforcé ma détermination à poursuivre cette voie. Le baccalauréat STI2D n’était pas seulement une étape : il était le tremplin parfait vers ma carrière actuelle. Aujourd’hui encore, je m’appuie sur les compétences et la méthodologie acquises pour relever les défis techniques dans mes projets professionnels et académiques."
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "modal": {
+    "detail": {
+      "assigned": "Personne assignée",
+      "start-date": "Date de début",
+      "end-date": "Date de fin",
+      "total-duration": "Durée totale",
+      "rapporteur": "Rapporteur",
+      "story-point": "Story Point",
+      "created": "Créé le",
+      "add-comment": "Ajouter un commentaire",
+      "sprint": "Sprint",
+      "updated": "Mis à jour le",
+      "priority": "Priorité"
+    }
+  }
+}

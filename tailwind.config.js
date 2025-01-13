@@ -35,6 +35,7 @@ export default {
         800: '#2D3748',
         900: '#1A202C',
       },
+      'red': '#EE4B2B',
       transparent: 'transparent',
     },
     fontFamily: {

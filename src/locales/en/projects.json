@@ -1,0 +1,122 @@
+{
+  "title": "My projects",
+  "see-more": "See more",
+  "back": "Back",
+  "projects": [
+    {
+      "id": 0,
+      "category": "Web Development",
+      "title": "Vacation Rental Platform",
+      "description-resume": "A modern and intuitive website for seasonal rental, offering an optimal user experience and advanced features.",
+      "description": [
+        {
+          "title": "Context",
+          "content": "During my second year of the Computer Science Bachelor's degree, I participated in the development of a vacation rental platform, in collaboration with a team of five students. The project aimed to design a complete tool to meet the needs of users, property owners, and customers, while adhering to technical constraints and deadlines."
+        },
+        {
+          "title": "Design",
+          "content": "The design phase was essential to lay the foundations of the project. We conducted a thorough analysis of the client's needs and delivered several important items, including a UML diagram to model the entities and their relationships. We also designed the database structure in PostgreSQL, including tables, primary and foreign keys, and indexes to ensure optimal performance. In parallel, wireframes were created to validate the user interfaces before development."
+        },
+        {
+          "title": "Methodology",
+          "content": "We used the SCRUM agile methodology to structure our work. Organized in two-week sprints, each cycle included daily meetings to track task progress, sprint reviews to validate developed features, and retrospectives to identify improvement areas. JIRA was used to manage the backlog and prioritize tasks based on objectives. This organization fostered effective collaboration and proactive management of unforeseen events."
+        },
+        {
+          "title": "Technologies Used",
+          "content": "The technologies required by the client included HTML, SCSS, and JavaScript for Front-End development, and PHP with PostgreSQL for Back-End. Git was used to manage versions and enable smooth collaboration within the team. We also used JIRA to coordinate tasks and track project progress."
+        },
+        {
+          "title": "Features",
+          "content": "The platform is divided into two distinct areas. The Front-Office for users offers advanced search with dynamic filters, online booking, and automated invoicing. The Back-Office for property owners allows them to manage their properties, track bookings, and export calendars in iCalendar format to sync with other tools."
+        },
+        {
+          "title": "Challenges Faced",
+          "content": "We encountered several challenges, both organizational and technical. Organizationally, we had to distribute tasks fairly within a team with varying skill levels and maintain effective communication despite tight deadlines. Technically, designing a scalable database and creating a smooth, fast advanced search presented major challenges. These obstacles were overcome through careful planning and good collaboration within the team."
+        },
+        {
+          "title": "Result",
+          "content": "The project was a success. The platform was well received by the client, who praised its quality and alignment with expectations. This project was an enriching experience that allowed us to develop our technical, organizational, and collaborative skills. During the defense, we received praise from the jury, reflecting the seriousness and commitment of our team."
+        }
+      ],
+      "tags": ["Create", "Administer", "Manage", "Lead", "Collaborate"],
+      "image": {
+        "url": "/projects/alhaizh-breizh.png",
+        "alt": "Image of the vacation rental platform"
+      }
+    },
+    {
+      "id": 1,
+      "category": "Web Development",
+      "title": "Member Management Personal Area",
+      "description-resume": "A website created for the Société Francophone d'Arthroscopie (SFA), allowing association members to renew their membership, view documents, and manage their profile.",
+      "description": [
+        {
+          "title": "Context",
+          "content": "During my internship at CYIM, I participated in the design and development of a personal area for the Société Francophone d'Arthroscopie (SFA). This project aimed to modernize and automate the association's member management system, previously managed manually via tools like Excel and Gmail. The platform was intended to simplify interactions between members and administrators. The project team consisted of a project manager, two Front-End developers, and three Back-End developers, including me. Among the Back-End developers, I was the only one dedicated full-time to the project, which allowed me to play a key role in its progress."
+        },
+        {
+          "title": "Methodology",
+          "content": "The work was organized in 15-day sprints, with objectives defined at the beginning of each cycle. A weekly meeting allowed us to track task progress, discuss obstacles, and adjust priorities based on needs. This approach facilitated effective collaboration and progressive delivery of features."
+        },
+        {
+          "title": "Technologies Used",
+          "content": "The Back-End development relied on proven technologies that had been used for several years within the department to meet project requirements. Drupal was used as the foundation to structure the application, with CiviCRM integrated to manage members, applications, and dynamic membership workflows. To meet the specific needs of the project, I used PHP and Symfony to create custom features while ensuring seamless integration with Drupal and CiviCRM. For data visualization, especially member statistics, I used D3.js to generate interactive charts, accompanied by optimized SQL queries to extract and analyze the necessary data."
+        },
+        {
+          "title": "Features",
+          "content": "The member management personal area provides essential features for the association, including:\n- Automatic email sending related to deferred payments and membership validation.\n- Email notifications for new member applications.\n- Automatic generation of membership receipts in PDF format.\n- Dynamic membership workflow, tailored to the SFA's criteria.\n- Centralized management of applications through dedicated CRM dashboards for administrators.\n- Detailed statistical indicators on members and their memberships for better tracking and management."
+        },
+        {
+          "title": "Challenges Faced",
+          "content": "One of the main challenges of the project was ensuring that the automatic membership process strictly adhered to the membership criteria set by the Société Francophone d'Arthroscopie (SFA). It was crucial to ensure that each step of the membership workflow, along with the management of applications and payments, fully aligned with the association's specific requirements. This challenge required particular attention to customizing the system, especially regarding dynamic membership criteria and the automation of validations, while maintaining the rigor and compliance of the process."
+        },
+        {
+          "title": "Result",
+          "content": "The project was a success, providing the association with a powerful and modern tool that simplifies member management. Members particularly appreciated the intuitive user interface and the new online features, while administrators gained efficiency in their daily tasks."
+        }
+      ],
+      "tags": ["Create", "Collaborate"],
+      "image": {
+        "url": "/projects/crm-sfa.png",
+        "alt": "Image of the member management personal area"
+      }
+    },
+    {
+      "id": 2,
+      "category": "Web Development",
+      "title": "Portfolio",
+      "description-resume": "A modern and interactive portfolio showcasing my web development skills and professional projects.",
+      "description": [
+        {
+          "title": "Context",
+          "content": "This personal project was designed to showcase my journey, skills, and projects as a full-stack developer. The goal was to create a site that reflects my technical expertise while offering smooth navigation and a professional aesthetic. This portfolio is conceived as an evolving tool, integrating modern technologies and dynamic features to impress potential recruiters and collaborators."
+        },
+        {
+          "title": "Design",
+          "content": "The design of the portfolio started with creating a detailed mockup in Figma, where I defined a visual identity that aligned with my professional profile. Special attention was given to ergonomics, user experience (UX), and accessibility, with a light and dark mode toggleable by the user. Animations and interactions were carefully integrated to enhance the visual impact while maintaining optimal performance."
+        },
+        {
+          "title": "Technologies Used",
+          "content": "For the development of this portfolio, I used Vue.js with the Composition API to structure components and manage functionalities. Tailwind CSS was used to create a modern and responsive design, while GSAP was used to add smooth and captivating animations. I also integrated Vue I18n to support multilingual content (French and English)."
+        },
+        {
+          "title": "Features",
+          "content": "The portfolio offers a dynamic presentation of my skills and projects, accompanied by a personalized section dedicated to my professional experiences. It includes a creative 404 page, smooth animations to capture attention, and a theme switcher (light/dark) accessible via a simple button. Navigation between sections is intuitive, and technical details are provided for each project, allowing visitors to explore my contributions in depth."
+        },
+        {
+          "title": "Challenges Faced",
+          "content": "The main challenge was to combine a modern and interactive design with optimal performance, especially on devices with limited resources. Integrating complex animations while maintaining smoothness required meticulous code optimization and careful dependency management. Additionally, implementing multilingual support required thoughtful structuring of content to ensure a seamless user experience in both languages."
+        },
+        {
+          "title": "Result",
+          "content": "This portfolio reflects both my technical skills and attention to detail. It was designed as a professional showcase, highlighting my achievements while offering an engaging and immersive user experience. The feedback received from peers and professionals confirmed that this tool fully meets my goal of enhancing my profile."
+        }
+      ],
+      "tags": ["Create", "Optimize"],
+      "image": {
+        "url": "/projects/portfolio.png",
+        "alt": "Image of the full-stack developer portfolio"
+      }
+    }
+  ]
+}

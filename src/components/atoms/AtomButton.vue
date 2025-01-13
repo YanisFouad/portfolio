@@ -1,5 +1,5 @@
 <template>
-    <component :is="props.href ? 'a' : 'button'" :href="props.href" :target="props.target" :class="buttonClasses[props.type]" class="h-8 px-3.5 inline-block rounded-lg">
+    <component :is="props.href ? 'a' : 'button'" :href="props.href" :target="props.target" :class="buttonClasses[props.type]" class="h-8 px-3 rounded-3xl flex items-center gap-2 font-bold justify-center">
         <slot></slot>
     </component>
 </template>
