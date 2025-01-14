@@ -75,7 +75,7 @@
           "content": "Le projet a été une réussite, offrant à l'association un outil performant et moderne qui simplifie la gestion de ses membres. Les adhérents ont particulièrement apprécié l'interface utilisateur intuitive et les nouvelles fonctionnalités en ligne, tandis que les administrateurs ont gagné en efficacité dans leurs tâches quotidiennes."
         }
       ],
-      "tags": ["Réaliser", "Collaborer"],
+      "tags": ["Réaliser", "Collaborer", "Optimiser"],
       "image": {
         "url": "/projects/crm-sfa.png",
         "alt": "Image de l'espace personnel de gestion de membres"
@@ -112,7 +112,7 @@
           "content": "Ce portfolio reflète à la fois mes compétences techniques et mon souci du détail. Il a été conçu comme une vitrine professionnelle, mettant en lumière mes réalisations tout en offrant une expérience utilisateur engageante et immersive. Les retours reçus de mes pairs et de professionnels ont confirmé que cet outil répond pleinement à mes objectifs de valorisation de mon profil."
         }
       ],
-      "tags": ["Réaliser", "Optimiser"],
+      "tags": ["Réaliser", "Optimiser", "Administrer"],
       "image": {
         "url": "/projects/portfolio.png",
         "alt": "Image du portfolio de développeur fullstack"

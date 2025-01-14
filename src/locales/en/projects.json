@@ -75,7 +75,7 @@
           "content": "The project was a success, providing the association with a powerful and modern tool that simplifies member management. Members particularly appreciated the intuitive user interface and the new online features, while administrators gained efficiency in their daily tasks."
         }
       ],
-      "tags": ["Create", "Collaborate"],
+      "tags": ["Create", "Collaborate", "Optimize"],
       "image": {
         "url": "/projects/crm-sfa.png",
         "alt": "Image of the member management personal area"
@@ -112,7 +112,7 @@
           "content": "This portfolio reflects both my technical skills and attention to detail. It was designed as a professional showcase, highlighting my achievements while offering an engaging and immersive user experience. The feedback received from peers and professionals confirmed that this tool fully meets my goal of enhancing my profile."
         }
       ],
-      "tags": ["Create", "Optimize"],
+      "tags": ["Create", "Optimize", "Administer"],
       "image": {
         "url": "/projects/portfolio.png",
         "alt": "Image of the full-stack developer portfolio"
